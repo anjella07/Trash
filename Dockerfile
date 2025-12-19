@@ -23,4 +23,4 @@ COPY model.pth .
 
 EXPOSE 8080
 
-CMD ["uvicorn", "main:garbage_app", "--host", "0.0.0.0", "--port", "8080", "--workers", "1"]
+CMD ["uvicorn", "main:Trash_app", "--host", "0.0.0.0", "--port", "8080", "--workers", "1"]

@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  urban_api:
+  model.pth:
     build: .
     restart: unless-stopped
     expose:
@@ -19,4 +19,4 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - urban_api
+      - model.pth
